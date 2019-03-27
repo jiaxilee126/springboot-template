@@ -1,0 +1,9 @@
+spring:
+    datasource:
+        #type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://39.108.141.63:3306/demo-blog?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false
+        username: root
+        password: #########
+    jpa:
+      show-sql: true
